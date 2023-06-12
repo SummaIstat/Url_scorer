@@ -1,0 +1,4 @@
+firmId	vat_code	name	address	zip	municipality	province	province_abbreviation	region	certified_mail	tels
+111	AAABBB52S06A123L	Acme Corporation	via Pulvillo,123	00175	Roma	Roma	RM	Lazio	acme@legalmail.it	
+222	BBBCCC58L07B456M	Los Pollos Hermanos	viale Europa,48	20093	Cologno Monzese	Milano	MI	Lombardia	hermanos@postacert.it	
+333	CCCDDD83M08C789N	Abstergo Industries	via Foggia,10	85025	Melfi	Potenza	PZ	Basilicata	abstergo@pec.it	

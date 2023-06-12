@@ -1,0 +1,22 @@
+open the Anaconda terminal
+cd into the folder containing the python file to be transformed in exe
+conda activate name_of_the_environment_used_to_compile_the_file
+pip install pyinstaller
+pyinstaller name_of_the_script.py --onefile
+
+If you also want to add an icon in ico format:
+pyinstaller name_of_the_script.py --icon=myIcon.ico --onefile
+
+Copy the generated exe file located in the dist folder (that has been generated)
+
+Now you can delete (they are no more usefull):
+- the "build" and "dist" folders
+- the ".spec" file
+
+=======================================
+
+Example:
+cd C:\Url_scorer
+conda activate Url_scorer
+pip install pyinstaller
+pyinstaller Url_scorer.py --icon=icon.ico --onefile
